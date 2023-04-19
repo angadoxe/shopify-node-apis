@@ -1,0 +1,26 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "@shopify/shopify-api": "^6.2.0",
+    "dotenv": "^16.0.3",
+    "error": "^10.4.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2",
+    "shopify-api-node": "^3.12.3",
+    "superagent": "^8.0.9"
+  },
+  "name": "shopifyapi",
+  "version": "1.0.0",
+  "description": "Getting Data from Shopify and Saving it in MongoDB and then creating new APIs which would be similar to Shopify APIs in data structure but will run from Nodejs as server and MongoDB as Database hosted on AWS - these new APIs will be used for Amrutam Home App. This will help in decreasing the API response time for the APP. ",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agnim Gupta",
+  "license": "ISC"
+}
