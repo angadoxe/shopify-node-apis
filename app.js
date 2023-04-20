@@ -27,6 +27,10 @@ app.get('/api/products/count', async (_req, res) => {
   // res.status(200).send(countData);
 });
 
+app.get('/ping', async (_req, res) => {
+  res.status(200).send("Success");
+});
+
 app.listen(3400, () => {
   console.log('App running on port 3400');
 });
